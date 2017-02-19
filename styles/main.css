@@ -145,9 +145,14 @@ input[type=text]:focus {
 }
 
 .title {
+    display: inline-block;
     font-size: 2em;
-    font-family: "bebas_neuebold";
-    padding-top: 40px;
+    font-family: "bebas_neuebold", sans-serif;
+    margin-top: 2% !important;
+}
+
+.title:hover {
+    cursor:pointer;
 }
 
 /* Generic */
