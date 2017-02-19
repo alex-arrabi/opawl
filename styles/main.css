@@ -217,6 +217,10 @@ a.black-text  {
     color: #000000;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 .width-100 {
     width: 100%;
 }
