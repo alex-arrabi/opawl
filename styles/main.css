@@ -71,7 +71,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: url(../content/background.jpg) no-repeat center center fixed;
+    background: url(/content/background.jpg) no-repeat center center fixed;
 }
 
 input[type=text] {
