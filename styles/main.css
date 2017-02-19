@@ -67,11 +67,11 @@ table {
 /* Main */
 
 body {
+    background: url(../content/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: url(http://www.opawl.org/content/background.jpg) no-repeat center center fixed;
 }
 
 input[type=text] {
