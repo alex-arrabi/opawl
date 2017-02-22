@@ -63,7 +63,7 @@ html {
     min-height: 100%;
 }
 
- body {
+body {
     line-height: 1;
     font-family: "nexa_light", sans-serif;
     min-height: 100%;
@@ -192,29 +192,43 @@ p {
 
 table {
     margin-left: -10px;
-    border-spacing: 10px;
-    border-collapse: separate;
 }
 
-a, a:visited, .link {
+td {
+    padding: 10px;
+}
+
+a.white, a.white:visited, .white-link {
     color: #FFFFFF;
     text-decoration: underline;
 }
 
-a:hover, .link:hover {
+a.white:hover, .white-link:hover {
     color: #800080;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a.white:active, .white-link:active {
+    color: #800080;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a, a:visited, .link {
+    color: #09f;
+    text-decoration: none;
+}
+
+a:hover, .link:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
 a:active, .link:active {
-    color: #800080;
+    color: #000;
     cursor: pointer;
     text-decoration: underline;
-}
-
-a.black-text  {
-    color: #000000;
 }
 
 .bold-text {
@@ -348,5 +362,11 @@ a.black-text  {
         max-width: 85%;
         padding: 5%;
         font-size: 125%;
+    }
+
+    tbody td {
+        display: block;
+        text-align:left;
+        padding-bottom: 20px;
     }
 }
